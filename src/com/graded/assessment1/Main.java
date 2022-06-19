@@ -4,15 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		AdminDepartment adminObj = new AdminDepartment();		
+		AdminDepartment adminObj = new AdminDepartment();
 		System.out.println(GetWelomeMessage(adminObj.departmentName()));
 		System.out.println(adminObj.getTodaysWork());
 		System.out.println(adminObj.getWorkDeadline());
 		System.out.println(adminObj.isTodayAHoliday());
-		
+
 		System.out.println();
-		
-		HrDepartment hrObj = new HrDepartment();		
+
+		HrDepartment hrObj = new HrDepartment();
 		System.out.println(GetWelomeMessage(hrObj.departmentName()));
 		System.out.println(hrObj.doActivity());
 		System.out.println(hrObj.getTodaysWork());
@@ -20,8 +20,8 @@ public class Main {
 		System.out.println(hrObj.isTodayAHoliday());
 
 		System.out.println();
-		
-		TechDepartment techObj = new TechDepartment();		
+
+		TechDepartment techObj = new TechDepartment();
 		System.out.println(GetWelomeMessage(techObj.departmentName()));
 		System.out.println(techObj.getTodaysWork());
 		System.out.println(techObj.getWorkDeadline());
@@ -29,7 +29,7 @@ public class Main {
 		System.out.println(techObj.isTodayAHoliday());
 
 	}
-	
+
 	private static String GetWelomeMessage(String departmentName)
 	{
 		return "Welcome to " + departmentName;
