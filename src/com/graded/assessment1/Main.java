@@ -30,8 +30,7 @@ public class Main {
 
 	}
 
-	private static String GetWelomeMessage(String departmentName)
-	{
+	private static String GetWelomeMessage(String departmentName) {
 		return "Welcome to " + departmentName;
 	}
 }

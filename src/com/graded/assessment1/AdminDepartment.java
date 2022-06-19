@@ -1,22 +1,19 @@
 package com.graded.assessment1;
 
-public class AdminDepartment extends SuperDepartment{
+public class AdminDepartment extends SuperDepartment {
 
 	@Override
-	public String departmentName()
-	{
+	public String departmentName() {
 		return "Admin Department";
 	}
 
 	@Override
-	public String getTodaysWork()
-	{
+	public String getTodaysWork() {
 		return "Complete your documents Submission";
 	}
 
 	@Override
-	public String getWorkDeadline()
-	{
+	public String getWorkDeadline() {
 		return "Complete by EOD";
 	}
 }

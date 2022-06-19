@@ -3,25 +3,21 @@ package com.graded.assessment1;
 public class HrDepartment extends SuperDepartment {
 
 	@Override
-	public String departmentName()
-	{
+	public String departmentName() {
 		return "HR Department";
 	}
 
 	@Override
-	public String getTodaysWork()
-	{
+	public String getTodaysWork() {
 		return "Fill today's timesheet and mark your attendance";
 	}
 
 	@Override
-	public String getWorkDeadline()
-	{
+	public String getWorkDeadline() {
 		return "Complete by EOD";
 	}
 
-	public String doActivity()
-	{
+	public String doActivity() {
 		return "team Lunch";
 	}
 }
