@@ -1,4 +1,8 @@
-package com.graded.assessment1;
+package com.greatlearning.apps;
+
+import com.greatlearning.models.AdminDepartment;
+import com.greatlearning.models.HrDepartment;
+import com.greatlearning.models.TechDepartment;
 
 public class Main {
 

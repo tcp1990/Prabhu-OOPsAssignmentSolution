@@ -1,4 +1,4 @@
-package com.graded.assessment1;
+package com.greatlearning.models;
 
 public class TechDepartment extends SuperDepartment {
 
