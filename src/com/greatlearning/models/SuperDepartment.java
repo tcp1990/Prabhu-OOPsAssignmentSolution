@@ -1,20 +1,26 @@
 package com.greatlearning.models;
 
+//Declaring Super Department Class
 public class SuperDepartment {
+	
+	private String departmentName = "Super Department";
+	private String todaysWork = "No Work as of now";
+	private String workDeadline = "Nil";
+	private String todayAHoliday = "Today is not a Holiday";
 
 	public String departmentName() {
-		return "Super Department";
+		return departmentName;
 	}
 
 	public String getTodaysWork() {
-		return "No Work as of now";
+		return todaysWork;
 	}
 
 	public String getWorkDeadline() {
-		return "Nil";
+		return workDeadline;
 	}
 
 	public String isTodayAHoliday() {
-		return "Today is not a Holiday";
+		return todayAHoliday;
 	}
 }

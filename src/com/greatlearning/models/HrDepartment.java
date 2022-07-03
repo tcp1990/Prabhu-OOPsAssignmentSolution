@@ -1,23 +1,29 @@
 package com.greatlearning.models;
 
+//Declaring Hr Department Class
 public class HrDepartment extends SuperDepartment {
+	
+	private String departmentName = "HR Department";
+	private String todaysWork = "Fill today's timesheet and mark your attendance";
+	private String workDeadline = "Complete by EOD";
+	private String activity = "team Lunch";
 
 	@Override
 	public String departmentName() {
-		return "HR Department";
+		return departmentName;
 	}
 
 	@Override
 	public String getTodaysWork() {
-		return "Fill today's timesheet and mark your attendance";
+		return todaysWork;
 	}
 
 	@Override
 	public String getWorkDeadline() {
-		return "Complete by EOD";
+		return workDeadline;
 	}
 
 	public String doActivity() {
-		return "team Lunch";
+		return activity;
 	}
 }

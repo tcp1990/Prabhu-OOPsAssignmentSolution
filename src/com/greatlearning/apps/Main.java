@@ -7,7 +7,7 @@ import com.greatlearning.models.TechDepartment;
 public class Main {
 
 	public static void main(String[] args) {
-
+		//Initiating Admin department and invoking their methods
 		AdminDepartment adminObj = new AdminDepartment();
 		System.out.println(GetWelomeMessage(adminObj.departmentName()));
 		System.out.println(adminObj.getTodaysWork());
@@ -15,7 +15,7 @@ public class Main {
 		System.out.println(adminObj.isTodayAHoliday());
 
 		System.out.println();
-
+		//Initiating Hr department and invoking their methods
 		HrDepartment hrObj = new HrDepartment();
 		System.out.println(GetWelomeMessage(hrObj.departmentName()));
 		System.out.println(hrObj.doActivity());
@@ -24,7 +24,7 @@ public class Main {
 		System.out.println(hrObj.isTodayAHoliday());
 
 		System.out.println();
-
+		//Initiating Tech department and invoking their methods
 		TechDepartment techObj = new TechDepartment();
 		System.out.println(GetWelomeMessage(techObj.departmentName()));
 		System.out.println(techObj.getTodaysWork());
@@ -34,6 +34,7 @@ public class Main {
 
 	}
 
+	//Getting welcome Message common method
 	private static String GetWelomeMessage(String departmentName) {
 		return "Welcome to " + departmentName;
 	}
